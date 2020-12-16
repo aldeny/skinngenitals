@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><!-- ~ Copyright (c) Aldeny 2019 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aldeny.skinngenitals">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DashboardActivity">
+        </activity>
+        <activity
+            android:name=".PenyakitActivity"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".DiagnosisActivity"
+            android:parentActivityName=".PilihJkActivity" />
+        <activity
+            android:name=".DiagnosisPRActivity"
+            android:parentActivityName=".PilihJkActivity" />
+        <activity
+            android:name=".TentangActivity"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".BantuanActivity"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".ImpetigoActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".KustaActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".EktimaActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".FolikulitisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".KrurisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".KorporisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".VersikolorActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".OnikomikosisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".VariccelaActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".ZosterActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".HfmdActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".VulgarisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".UretritisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".ServisitisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".SifilisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".NonspesifikActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".MoleActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".KandidiasisActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".KondilomaActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".SkabiesActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".HasilActivity"
+            android:parentActivityName=".PilihJkActivity" />
+
+        <activity android:name=".PilihJkActivity"
+            android:parentActivityName=".DashboardActivity"/>
+    </application>
+
+</manifest>

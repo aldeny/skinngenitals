@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Aldeny 2019
+  -->
+
+<resources>
+    <color name="colorPrimary">#3896df</color>
+    <color name="colorPrimaryDark">#327199</color>
+    <color name="colorAccent">#2962ff</color>
+    <color name="colorBantuan">#ff6bb7de</color>
+</resources>

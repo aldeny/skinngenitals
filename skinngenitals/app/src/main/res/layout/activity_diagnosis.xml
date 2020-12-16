@@ -1,0 +1,3349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Aldeny 2019
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="@drawable/background_app"
+    android:orientation="vertical"
+    tools:context=".DiagnosisActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool"
+        android:background="@color/colorBantuan">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:columnOrderPreserved="false"
+                android:padding="10dp"
+                android:rowCount="20">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="1. Apakah kulit anda terasa nyeri?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:id="@+id/rg01"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb01"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb02"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="2. Apakah anda merasa gatal-gatal?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:id="@+id/rg02"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb03"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb04"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="3. Apakah kulit anda melepuh dan berisi cairan?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb05"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb06"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="4. Apakah kulit jari anda mati rasa?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb07"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb08"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="5. Apakah muncul luka berwarna pucat dan menebal pada kulit?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb09"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb10"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="6. Apakah kulit mengalami luka tapi tidak terasa sakit?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb11"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb12"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="7. Apakah otok kaki atau tangan ada terasa lemah (tidak berdaya)?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb13"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb14"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="8. Apakah anda kehilangan alis dan bulu mata?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb15"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb16"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="9. Apakah mata anda kering dan jarang berkedip?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb17"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb18"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="10. Apakah anda memiliki luka borok?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb19"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb20"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="11. Apakah luka borok anda tertutup kerak berwarna kuning?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb21"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb22"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="12. Apakah banyak muncul benjolan berwarna merah pada kulit anda?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb23"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="13. Apakah benjolan pada kulit anda terasa nyeri dan berisi nanah?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb25"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb26"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="14. Apakah anda merasakan gatal dan sensasi seperti terbakar?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb27"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb28"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="15. Apakah kulit anda terasa bersisik?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb29"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb30"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="16. Apakah kulit anda berwarna merah berbentuk setengah lingkaran?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb31"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb32"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="17. Apakah muncul ruam melingkar kemerahan pada kulit anda?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb33"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb34"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="18. Apakah timbul luka berisi cairan atau nanah?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb35"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb36"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="19. Apakah bercak kulit anda berwarna lebih terang?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb37"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb38"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="20. Apakah kulit menyerupai kembang kol?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb39"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb40"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="21. Apakah ada perubahan warna pada kuku?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb41"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb42"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="22. Apakah kuku anda terasa menebal?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb43"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb44"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="23. Apakah apakah kuku anda mulai rapuh?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb45"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb46"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="24. Apakah anda demam?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb47"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb48"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="25. Apakah anda merasa pusing?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb49"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb50"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="26. Apakah anda merasa lemas?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb51"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb52"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="27. Apakah tenggorokan anda terasa sakit?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb53"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb54"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="28. Apakah nafsu makan anda hilang?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb55"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb56"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="29. Apakah ada bengkak berisi cairan?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb57"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb58"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="30. Apakah ada ruam di satu sisi tubuh?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb59"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb60"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="31. Apakah anda merasa sensitif terhadap cahaya?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb61"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb62"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="32. Apakah muncul sariawan?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb63"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb64"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="33. Apakah muncul ruam merah dan terkadang berisi cairan?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb65"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb66"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="34. Apakah anda sakit perut?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb67"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb68"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="35. Apakah anda batuk?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb69"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb70"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="36. Apakah ada benjolan atau daging tumbuh?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb71"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb72"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="37. Apakah ada benjolan dengan permukaan yang kasar?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb73"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb74"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="38. Apakah kulit anda terasa pedih?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb75"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb76"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="39. Apakah anda merasakan nyeri saat buang air kecil?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb77"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb78"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="40. Apakah ada darah didalam air kencing?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb79"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb80"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="41. Apakah anda merasakan sakit dibawah perut?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb81"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb82"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="42. Apakah anda mengalami keputihan?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb83"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb84"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="43. Apakah keluar cairan yang berbau tidak sedap?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb85"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb86"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="44Apakah anda mengalami pendarahan ringan?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb87"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb88"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="45. Apakah anda mengalami nyeri selama hubungan seksual?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb89"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb90"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="46. Apakah muncul luka/tukak pada alat kelamin?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb91"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb92"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="47. Apakah anda sering kencing?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb93"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb94"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="48. Apakah keluar cairan yang tidak normal pada alat kelamin?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb95"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb96"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="49. Apakah ada benjolan kecil yang berwarna merah?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb97"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb98"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="50. Apakah ada luka yang terbuka?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb99"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb100"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="51. Apakah luka mudah berdarah?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb101"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb102"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="52. Apakah ada pembengkakan di pangkal paha?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb103"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb104"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="53. Apakah ada bengkak kecil di daerah alat kelamin?"
+                                android:fontFamily="@font/lato_regular"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <RadioButton
+                                        android:id="@+id/rb105"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ya"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rb106"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tidak"/>
+
+
+
+                                </RadioGroup>
+
+                            </GridLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/diagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_button"
+        android:text="cek penyakit"/>
+
+</LinearLayout>

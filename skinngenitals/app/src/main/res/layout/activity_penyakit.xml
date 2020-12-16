@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Aldeny 2019
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_app"
+    tools:context=".PenyakitActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool"
+        android:background="@color/colorBantuan">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"
+                android:textColor="#ffffff"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Impetigo Vesikobulosa"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Kusta"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Ektima"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Folikulitis"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Tinea Kruris"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Tinea Korporis"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Petriasis Versikolor"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Onikomikosis"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Variccela"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Herpes Zoster"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Hand-Foot-Mouth Disease"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Veruka Vulgaris"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Uretritis Gonore"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Servisitis Gonore"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Sifilis"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Uretritis Non Spesifik"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Ulkus Mole"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Kandidosis Vulvovaginal"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:text="Kondiloma Akuminata"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Skabies"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/helvetica_bold"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

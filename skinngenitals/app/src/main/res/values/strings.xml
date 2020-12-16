@@ -1,0 +1,521 @@
+<!--
+  ~ Copyright (c) Aldeny 2019
+  -->
+
+<resources>
+    <string name="app_name">Skin&amp;Genitals.ID</string>
+
+    <string name="bantuanInfo">APA YANG ANDA BUTUHKAN??</string>
+
+    <string name="meninfo">
+        <br><b>Menu Info Penyakit</b></br>\n\n
+
+        <br>Menu Informasi Penyakit memungkinkan kamu untuk melihat
+        dan mencari informasi mengenai penyakit kulit dan kelamin yang disebabkan oleh infeksi
+        jamur, bakteri, virus, serta serangga.</br> \n \n
+
+        <br>Untuk menggunakan menu Informasi Penyakit anda cukup mengikuti langkah-langkah berikut: \n</br>
+        <br>1. Pengguna memilih menu Informasi Penyakit \n</br>
+        <br>2. Pengguna memilih informasi penyakit kulit dan kelamin apa yang akan di cari. \n</br>
+    </string>
+
+    <string name="meninfo2">
+        <br><b>Menu Diagnosis</b></br>\n\n
+
+        <br>Menu Diagnosis memungkinkan anda untuk mengetahui
+        mengenai penyakit kulit dan kelamin yang kamu derita</br> \n \n
+
+        <br>Untuk menggunakan menu Diagnosis kamu cukup mengikuti langkah-langkah berikut: \n</br>
+        <br>1. Pengguna memilih menu Diagnosis \n</br>
+        <br>2. Pengguna memilih gejala penyakit kulit dan kelamin yang dirasakan. \n</br>
+        <br>3. Pengguna menekan tombol Diagnosis dan secara otomatis aplikasi akan menampilan penyakit yang diderita \n</br>
+    </string>
+
+    <string name="meninfo3">
+        <br><b>Menu Tentnag Developers</b></br>\n\n
+
+        <br>Menu Tentang Developers berisi tentang informasi para pengembang aplikasi</br> \n \n
+
+        <br>Untuk menggunakan menu Tentang Developers kamu cukup mengikuti langkah-langkah berikut: \n</br>
+        <br>1. Pengguna memilih menu Tentang Developer \n</br>
+    </string>
+
+    <string name="meninfo4">
+        <br><b>Menu Bantuan</b></br>\n\n
+
+        <br>Menu Bantuan berisi tentang informasi cara penggunaan aplikasi</br> \n \n
+
+        <br>Untuk menggunakan menu Tentang Developers kamu cukup mengikuti langkah-langkah berikut: \n</br>
+        <br>1. Pengguna memilih menu Bantuan \n</br>
+    </string>
+
+    <string name="impetigo">
+        <b>Defenisi</b>\n
+        <br>Impetigo adalah infeksi kulit yang disebabkan oleh bakteri, berupa lepuh atau bercak
+        luka terbuka pada kulit, yang kemudian menimbulkan kerak berwarna kuning atau cokelat.
+        Impetigo bulosa, ditandai dengan kulit yang melepuh dan berisi cairan. Kemunculan impetigo
+            bulosa biasanya juga disertai dengan demam dan pembengkakan kelenjar getah bening.</br>\n\n
+
+        <b>Gejala</b>\n
+
+        <br>1. Kulit melepuh dan berisi cairan berukuran 1-2 sentimeter yang terasa sakit dan membuat kulit di sekitarnya gatal.</br>\n
+        <br>2. Kulit yang melepuh, dalam waktu singkat dapat menyebar kemudian pecah dalam beberapa hari.</br>\n
+		<br>3. Pecahan kulit yang melepuh kemudian meninggalkan kerak berwarna kuning.</br>\n
+		<br>4. Setelah sembuh, kerak kuning tersebut hilang tanpa meninggalkan bekas sama sekali</br>\n\n
+
+        <b>Penanganan</b>\n
+        Jika penderita terlanjur terkena penyakit ini dapat dilakukan pengobatan
+        dengan menggunakan antibiotik, salep atau krim jika infeksi tergolong ringan,
+        menyerang bagian kecil tubuh dan belum menyebar luas. Sebelum menggunakan
+        krim atau salep terlebih dahulu merendam luka dalam air hangat atau
+        dikompres dengan air hangat agar koreng menjadi lunak.
+    </string>
+
+    <string name="kusta">
+        <b>Defenisi</b>\n
+        <br>Kusta, yang juga dikenal dengan nama lepra atau penyakit Hansen, adalah
+            penyakit yang menyerang kulit, sistem saraf perifer, selaput lendir pada
+            saluran pernapasan atas, serta mata. Kusta bisa menyebabkan luka pada
+            kulit, kerusakan saraf, melemahnya otot, dan mati rasa.</br>\n\n
+
+        <br><b>Gejala</b></br>\n
+
+        <br>1. Mati rasa, baik sensasi terhadap perubahan suhu, sentuhan, tekanan
+                ataupun rasa sakit.</br>\n
+        <br>2. Muncul lesi pucat dan menebal pada kulit.</br>\n
+		<br>3. Muncul luka tapi tidak terasa sakit.</br>\n
+		<br>4. Pembesaran saraf yang biasanya terjadi di siku dan lutut.</br>\n
+        <br>5. Kelemahan otot sampai kelumpuhan, terutama otot kaki dan tangan.</br>\n
+		<br>6. Kehilangan alis dan bulu mata.</br>\n
+		<br>7. Mata menjadi kering dan jarang mengedip, serta dapat.</br>\n
+        <br>8. Menimbulkan kebutaan.</br>\n
+		<br>9. Hilangnya jari jemari.</br>\n
+        <br>10. Kerusakan pada hidung yang dapat menimbulkan mimisan, hidung tersumbat,
+                atau kehilangan tulang hidung.</br>\n\n
+
+        <b>Penanganan</b>
+        Pengobatan yang dilakukan jika penderita terkena penyakit ini adalah pemberian
+        kombinasi antibiotik selama 6 bulan hingga 2 tahun hal ini ditentukan
+        berdasarkan jenis kusta. Beberapa contoh antibiotik yang digunakan seperti
+        rifampicin, dapsone, dan clofazimine.
+    </string>
+
+    <string name="ektima" >
+        <b>Defenisi</b>\n
+
+        Borok dikulit atau Ektima adalah salah satu bentuk poderma ulseratif di
+        kulit dan disebabkan oleh grup A-beta hemilitik streptokokus. Kuman
+        didapat dari kulit, karena ektima memiliki ulkus yang dalam sampai dermis,
+        maka sering dikatakan lebih dalam dari impetigo.\n\n
+        <b>Gejala</b>\n
+
+        1. Terdapat luka borok.\n
+        2. Borok tertutup kerak berwarna kuning.\n\n
+
+        <b>Penyebab</b>\n
+        1. Kebersihan penderita yang kurang baik dalam kehidupan sehari hari.\n
+        2. suhu serta kelembaban yang tinggi.\n\n
+
+        <b>Penanganan</b>\n
+
+        Penanganan penyakit dilakukan pemberian antibiotik dikloksasilin, di indonesia
+        obat ini tidak tersedia maka dapat diberikan sefadroksil yang merupakan
+        antibiotik golongan sefalosporin generasi I.
+    </string>
+
+    <string name="folikulitis">
+        <b>Defenisi</b>\n
+        <br>Folikulitis adalah peradangan yang terjadi pada folikel rambut atau tempat rambut tumbuh
+            yang biasanya disebabkan oleh infeksi bakteri. Meskipun bisa menyebabkan rasa gatal dan
+            perih, penyakit ini umumnya tidak berbahaya </br>\n\n
+
+        <br><b>Gejala</b></br>\n
+
+        <br>1. Muncul banyak benjolan kecil berwarna merah atau seperti jerawat, di kulit tempat rambut tumbuh.</br>\n
+        <br>2. Benjolan terasa nyeri yang berisi nanah, dapat membesar atau pecah.</br>\n
+        <br>3. Gatal dan sensasi terbakar pada kulit.</br>\n\n
+
+        <b>Penanganan</b>\n
+        Pengobatan untuk folikulitis dilakukan tergantung tingkat keparahan yang
+        dialami seperti pemberian obat-obatan berbentuk krim, losion, atau gel.
+        Sedangkan untuk folikultis yang diakibatkan jamur diberikan krim, sampo,
+        atau tablet. Selanjutnya kita bertambah parah dilakukan tindakkan oprasi
+        kecil
+    </string>
+
+    <string name="kruris">
+        <b>Defenisi</b>\n
+        <br>Tinea Kruris adalah rasa gatal di selakangan akibat infeksi jamur.
+            Infeksi jamur ini dapat terjadi pada siapa saja, namun lebih sering dialami oleh pria
+            atau seorang atlet. Selain selangkangan, tinea cruris dapat menyebar ke paha, bokong,
+            hingga dubur, tetapi jarang timbul di skrotum atau penis.</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Gejala utama tinea cruris adalah rasa gatal di selangkangan yang memburuk saat
+            beraktivitas atau berolahraga, dan perubahan pada kulit di area selangkangan yang berupa: </br>\n
+
+        <br>1. Ruam kemerahan dengan bentuk melingkar seperti pulau, dan bagian tepinya tampak lebih merah</br>\n
+        <br>2. Kulit pecah-pecah dan terkelupas.</br>\n
+        <br>3. Warna kulit menjadi lebih terang atau lebih gelap.</br>\n
+        <br>4. Selain gatal, kulit di daerah selangkangan juga terasa perih seperti terbakar. </br>\n\n
+
+        <b>Penyebab</b>\n
+        1. Kulit selangkangan sering tergesek dengan pakaian\n
+        2. Keringat yang berlebihan di kulit selangkangan menyebabkan lembab\n
+        3. Kutu air yang terdapat di selangkangan\n
+        4. Terdapat kontak langsung dengan pakaian penderita\n\n
+
+        <b>Penanganan</b>\n
+        1. Membersihkan kulit selangkangan dengan sabun dan air hangat kemudian
+        mengeringkannya\n
+        2. Pemberian krim anti jamur seperti clotimazole atau miconazole
+    </string>
+
+    <string name="korporis">
+        <b>Defenisi</b>\n
+        <br>Tinea Korporis atau kurap tubuh adalah infeksi jamur yang bisa menimbulkan ruam melingkar
+            kemerahan atau keperakan pada kulit. Penyakit kulit ini bisa muncul di seluruh bagian tubuh,
+            namun biasanya muncul pada lengan dan tungkai. Umumnya, tinea corporis lebih mudah menyebar
+            di daerah beriklim hangat dan lembap.</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Gejala tinea korporis biasanya mulai muncul 4-10 hari setelah tubuh terpapar jamur.
+            Beberapa tanda dan gejala umum tinea corporis adalah:</br>\n
+
+        <br>1. Munculnya ruam melingkar kemerahan atau keperakan pada kulit dengan tepi yang sedikit menimbul dibanding daerah sekitarnya.</br>\n
+        <br>2. Bagian tengah dari cincin bisa tampak seperti kulit sehat, namun bisa juga timbul luka berisi cairan (blister) atau nanah di sekitar ruam melingkar tersebut. </br>\n
+        <br>3. Kulit terasa gatal, bersisik, atau meradang.</br>\n\n
+
+        <b>Penyebab</b>\n
+        Penyebab dari tinea corporis ini adalah jamur dermatophytes. Cara penularan
+        dan penyebaran jamur dermatophytes seperti kontak fisik dengan penderita,
+        kontak manusia dengan hewan yang terinfeksi, kontak fisik manusia
+        dengan benda-benda yang terkontaminasi, dan kontak manusia dengan
+        tanah yang bukan tidak mungkin karena tanah meruapakan media yang cocok
+        untuk tumbuhnya spora jamur.\n\n
+
+        <b>Penanganan</b>\n
+        1. Membersihkan kulit selangkangan dengan sabun dan air hangat kemudian
+        mengeringkannya\n
+        2. Pemberian krim anti jamur seperti clotimazole atau miconazole
+    </string>
+
+    <string name="versikolor">
+        <b>Defenisi</b>\n
+        <br>Pitiriasis Versikolor (Panu) adalah infeksi jamur yang mengganggu pigmen kulit, sehingga
+            timbul bercak dengan warna yang lebih terang atau lebihgelappadakulit.
+            Infeksi kulit ini muncul secara perlahan, namun seiring waktu bercak kulit tersebut
+            menyatu dan membentuk bercak yang lebih besar</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Gejala yang paling jelas terlihat pada penderita panu adalah bercak pada permukaan kulit.
+            Gejala yang muncul berupa: </br>\n
+
+        <br>1. Muncul bercak berwarna merah muda, merah, kecokelatan, atau cokelat.</br>\n
+        <br>2. Bercak kulit dapat terjadi pada punggung, dada, leher, atau lengan atas.</br>\n
+        <br>3. Kulit terasa kering atau bersisik dan gatal.</br>\n\n
+
+        <b>Penanganan</b>\n
+        Pengobatan pitiriasis versikolor dilakukan dengan pemberian krim, losion, atau sampo.
+    </string>
+
+    <string name="Onikomikosis">
+        <b>Defenisi</b>\n
+        <br>Onikomikosis(JamurKuku) adalah kondisi umum yang menyebabkan munculnya titik berwarna
+            putih atau kuning di bagian bawah ujung kuku jari tangan atau kaki. Kuku dapat berubah
+            warna, menebal, dan retak di bagian ujungnya jika infeksi jamur kuku menjalar semakin dalam. </br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Kondisi yang juga memiliki nama lain onikomikosis dan tinea unguium ini dapat menyerang
+            lebih dari satu kuku, namun jarang sekali menyerang seluruh kuku. Beberapa faktor yang
+            dapat meningkatkan risiko seseorang terkena jamur kuku adalah:</br>\n
+
+        <br>1. Perubahan warna pada kuku.</br>\n
+        <br>2. Menebalnya kuku.</br>\n
+        <br>3. Rapuh pada kuku.</br>\n\n
+
+        <b>Penyebab</b>\n
+        Penyebab dari Onikomikosis adalah infeksi jamur dermatofit. Selain itu terdapat pula penyebabnya seperti:\n
+        1. Buruknya sirkulasi darah\n
+        2. Lemahnya sistem kekebalan tubuh\n
+        3. Berkeringat banyak\n
+        4. Menderita kutu air\n\n
+
+        <b>Penanganan</b>\n
+        Pengobatan onikomikosis bisa dilakukan dengan cara pemberian obat pelapis kuku, obat krim kuku, dan obat oral anti jamur.
+    </string>
+
+    <string name="Variccela">
+        <b>Defenisi</b>\n
+        <br>Varicella (Cacar Air) Penyakit cacar air atau dalam istilah medis disebut varicella
+            adalah infeksi yang disebabkan virus Varicella zoster. Penderita yang terinfeksi virus
+            ini ditandai dengan munculnya ruam kemerahan berisi cairan yang sangat gatal diseluruh tubuh</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Gejala cacar air adalah ruam merah di perut atau punggung. Selainitu,cacar air juga
+            ditandai dengan beberapa gejala lain seperti: </br>\n
+
+        <br>1. Demam.</br>\n
+        <br>2. Pusing.</br>\n
+        <br>3. Lemas</br>\n
+        <br>4. Nyeri tenggorokan </br>\n\n
+
+        <b>Penanganan</b>\n
+        Pengobatan yang dilakukan apabila terkena penyakit ini adalah:\n
+        1. Memperbanyak minum air putih dan mengonsumsi makanan yang\n
+        lembut.
+        2. Tidak menggaruk luka cacar air.\n
+        3. Memakai pakaian yang berbahan lembut.\n
+    </string>
+
+    <string name="Zoster">
+        <b>Defenisi</b>\n
+        <br>Herpes zoster atau cacar ular (cacar api) adalah penyakit yang ditandai dengan timbulnya
+            bintil kulit berisi air pada salah satu sisi tubuh dan terasa nyeri. Penyakit ini di sebabkan oleh
+            infeksi virus Varicella Zoster, yang juga menjadi penyebab cacar air</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Gejala utama herpes zoster adalah timbulnya bintil berisi air pada kulit, dengan ciri-ciri sebagai berikut: </br>\n
+
+        <br>1. Bintil yang muncul seperti cacar air di salah satu sisi tubuh(kanan atau kiri).</br>\n
+        <br>2. Bintil tersebut hanya setempat.</br>\n
+        <br>3. Bintil akan berkembang menjadi luka lepuh.</br>\n
+        <br>4. Luka lepuh akan pecah dan menjadi luka berkerak, lalu menghilang secara perlahan. </br>\n
+        <br>5. Bintil yang timbul di area mata dapat mengganggu penglihatan. </br>\n\n
+
+        <b>Penanganan</b>\n
+        Pengobatan yang dilakukan dengan pemberian antivirus segera dilakukan apabila
+        terkena penyakit ini seperti famiciclovir, acyclovir, dan valacyclovir.
+        Selain itu juga diberikan obat pereda nyeri seperti paracetamol, ibuprofen,
+        tramol, atau oxycodone. Penderita juga di anjurkan untuk mengenakan
+        pakaian longgar dan berbahan lembut, menutup bintil agar segera mengering,
+        dan mandi dengan air dingin.
+    </string>
+
+    <string name="Hfmd">
+        <b>Defenisi</b>\n
+        <br>Penyakit tangan kaki dan mulut atau ﬂu singapura adalah infeksi virus yang ditandai dengan
+            luka lepuh pada mulut, dan ruam atau bintik merah pada tangan dan kaki. Penyakit ini sangat
+            menular dan banyak menyerang anakanak usia di bawah 5 tahun. Penyakit tangan kaki dan mulut
+            bersifat ringan dan akan sembuh dengan sendirinya dalam 7-10 hari</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Gejala penyakit tangan kaki dan mulut muncul pada hari ketiga hingga ketujuh sejak pertama kali terpapar virus.
+            Gejala awal yang dapat muncul adalah: </br>\n
+
+        <br>1. Demam sekitar 38-39 .</br>\n
+        <br>2. Sakit kepala </br>\n
+        <br>3. Nafsu makan menurun </br>\n
+        <br>4. Radang tenggorokan  </br>\n
+        <br>5. Anak menjadi rewel  </br>\n\n
+
+        <b>Penanganan</b>\n
+        Pengobatan yang dilakukan jika terkena penyakit ini adalah:\n
+        1. Memberika paracetamol atau ibuprofen untuk meredakan rasa nyeri.\n
+        2. Memperbanyak istirahat dan meminum minuman dingin.\n
+        3. Tidak mengonsumsi makanan yang pedas dan asam.\n
+        4. Mengonsumsi makanan yang lunak dan sup.\n
+    </string>
+
+    <string name="Vulgaris">
+        <b>Defenisi</b>\n
+        <br>Kutil adalah infeksi pada permukaan kulit yang ditandai dengan benjolan kecil,
+            bertekstur kasar, berwarna pucat atau kecokelatan, serta terkadang terasa gatal dan sakit jika disentuh.
+            Kutil disebabkan oleh human papilloma virus (HPV). Kutil menyerang segala usia, khususnya orang-orang
+            dengan sistem kekebalan tubuh yang masih rendah, seperti anak-anak dan remaja. Kutil sering kali muncul
+            di siku, di sekitar kuku-kuku, telapak, dan jari-jari tangan atau kaki</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Gejala veruka vulgaris atau kutil diantaranya: </br>\n
+
+        <br>1. Daging tumbuh </br>\n
+        <br>2. Benjolan dengan permukaan yang kasar  </br>\n
+        <br>3. Rasa gatal  </br>\n\n
+
+        <b>Penanganan</b>\n
+        Sebagian besar penyakit ini bisa hilang sendiri tanpa harus diobari namun
+        bisa memakan waktu yang sangat lama hingga beberapa minggu atau
+        berbulan-bulan. Pemberian salep dan plester yang menganduk asam salisilat
+        yang bisa dibeli tanpa resep dokter.
+    </string>
+
+    <string name="Uretritis">
+        <b>Defenisi</b>\n
+        <br>Uretritis gonore adalah kondisi yang terjadi ketika uretra Anda terinfeksi bakteri penyebab gonorea.
+            Uretra adalah saluran yang membawa urine alias air kencing dari kandung kemih ke luar tubuh.
+            Uretra yang yang terinfeksi ini berwarna merah dan bengkak</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Tanda dan gejala umum dari uretritis gonorea adalah: </br>\n
+
+        <br>1. Nyeri saat buang air kecil atau saat berhubungan seks </br>\n
+        <br>2. Darah dalam urine</br>\n
+        <br>3. Rasa sakit di bawah perut </br>\n
+        <br>4. Keputihan dan vagina berbau tidak sedap </br>\n
+        <br>5. Demam </br>\n
+        <br>6. Kelenjar getah bening di panggul bengkak </br>\n\n
+
+        <b>Penanganan</b>\n
+        Dokter akan memberikan resep obat antibiotik untuk mengatasi infeksi sperti
+        aceraminophen, ibuprofen atau mandi dengan air hangat. Minum air putih
+        yang banyak khususnya jus buah untuk meningkatkan asam urine. Disamping
+        itu penderita yang tekena penyakit ini diharuskan untuk tidak melakukan
+        hubungan seksual hingga sembuh.
+    </string>
+
+    <string name="Servisitis">
+        <b>Defenisi</b>\n
+        <br>Servisitis adalah peradangan yang terjadi pada serviks atau leher rahim. Serviks merupakan
+            bagian paling bawah dari rahim yang terhubung dengan vagina. Jika kondisi ini tidak diobati,
+            maka servisitis yang terjadi karena infeksi dapat menyebar hingga ke rongga perut, menimbulkan
+            gangguan kesuburan, serta masalah pada janin bagi ibu yang sedang hamil</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Sebagian besar penderita servisitis tidak merasakan gejala apa pun, dan mereka baru menyadari
+            terkena penyakit ini setelah menjalani pemeriksaan dokter untuk alasan lain. Sebaliknya,
+            ada sebagian penderita yang mengalami atau merasakan gejala servisitis. Di antaranya adalah: </br>\n
+
+        <br>1. Keluar cairan dari vagina yang tidak biasa dan dalam jumlah banyak. Cairan ini bisa berwarna
+            kuning pucat keabu-abuan yang disertai bau tidak sedap. </br>\n
+        <br>2. Buang air kecil yang sering dan menyakitkan. </br>\n
+        <br>3. Dispareunia. </br>\n
+        <br>4. Perdarahan dari vagina setelah berhubungan seksual. </br>\n
+        <br>5. Vagina terasa nyeri.</br>\n
+        <br>6. Panggul terasa tertekan. </br>\n
+        <br>7. Sakit punggung. </br>\n
+        <br>8. Rasa nyeri pada bagian panggul atau perut. </br>\n
+        <br>9. Demam.</br>\n\n
+
+        <b>Penanganan</b>\n
+        Penanganan penyakit ini dengan cara pemberian antibiotik seperti gonore,
+        chlamydia, dan vaginosis bakterialis. Pemberian antiviral dan antijamur.
+    </string>
+
+    <string name="Sifilis">
+        <b>Defenisi</b>\n
+        <br>Siﬁlis atau raja singa adalah infeksi yang disebabkan oleh bakteri bernama Treponema pallidum.
+            Siﬁlis adalah salah satu infeksi menular seksual (IMS).Umumnya,infeksi ini menyebar melalui hubungan
+            seksual dengan orang yang terinfeksi</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Penderita siﬁlis mengalami gejala yang dimulai dengan lesi atau luka pada alat kelamin atau didalam dan disekitar
+            mulut. Luka yang terjadi berbentuk seperti gigitan serangga tapi tidak menimbulkan rasa sakit. </br>\n\n
+
+        <b>Penanganan</b>\n
+        Sifilis dapat diobati dengan antibiotik penisilin. Selama masa pengobatan penderita dilarang
+        untuk melakukan hubungan seksual sampai dokter memastikan infeksi sudah sembuh.
+    </string>
+
+    <string name="Nonspesifik">
+        <b>Defenisi</b>\n
+        <br>Uretritis Nonspesiﬁk (UNS) atau Non-speciﬁc Urethritis atau (NSU), pengertiannya lebih sempit dari
+            Nonspeciﬁc Genital Infection atau (NSGI) karena peradangan hanya terjadi pada uretra yang disebabkan
+            oleh kuman non-spesiﬁk</br>\n\n
+
+        <b>Gejala</b>\n
+        <br>Gejala yang timbul adalah: </br>\n
+
+        <br>1. Nyeri saat buang air kecil </br>\n
+        <br>2. Sering kencing </br>\n
+        <br>3. Keluar cairan yang tidak normal </br>\n\n
+
+        <b>Penanganan</b>\n
+        Secara umum obat yang paling efektif adalah golongan tetrasiklin dan eritromisin.
+        Disamping itu dapat juga digunakan sulfa-trimetopirm, spiramisin, dan kuinolon2.
+    </string>
+
+    <string name="Kandidosis">
+        <b>Defenisi</b>\n
+        <br>Kandidiasis vulvovaginal terjadi cukup sering, dimana hampir 75% wanita dewasa mengalami setidaknya
+            satu kali infeksi ini dalam hidup mereka, dan terjadi lebih sering serta lebih parah pada
+            orang dengan sistem kekebalan yang lemah</br>\n\n
+
+        <b>Gejala</b>\n
+        <br> Adapun gejala dari kandidiosis vulvovaginal adalah:</br>\n
+
+        <br>1. Peradangan vagina </br>\n
+        <br>2. Rasa gatal</br>\n
+        <br>3. Cairan putih kental dari vagina </br>\n
+        <br>4. Nyeri buang air kecil </br>\n
+        <br>5. Kemerahan</br>\n\n
+
+        <b>Penanganan</b>\n
+        Pemberian obat golongan azole seperti fluconazole, itraconazole, dan
+        voriconazole serta obat golongan polyene seperti amphotericin B dan nystatin.
+    </string>
+
+    <string name="Kondiloma">
+        <b>Defenisi</b>\n
+        <br>Kondiloma akuminata atau yang lebih dikenal dengan kutil kelamin adalah salah satu gejala
+            yang paling umum muncul akibat infeksi menular seksual. Kondiloma akuminata umumnya muncul
+            akibat infeksi HPV (human papillomavirus) tertentu, yaitu HPV 6 dan 11</br>\n\n
+
+        <b>Gejala</b>\n
+        <br> Adapun gejala dari Kondiloma Akuminata adalah: </br>\n
+
+        <br>1. Bengkak kecil di daerah kemaluan Anda. </br>\n
+        <br>2. Beberapa kutil berdekatan yang menyerupai bentuk kembang kol. </br>\n
+        <br>3. Rasa gatal atau rasa tidak nyaman di daerah kemaluan Anda. </br>\n
+        <br>4. Perdarahan saat hubungan seksual. </br>\n\n
+
+        <b>Penanganan</b>\n
+        Beberapa penanganan yang bisa dilakukan seperit:\n
+        1. Podofilox, dioleskan pada bagian luar kulit kelamin untuk menghentikan pertumbuhan sel kutil.\n
+        2. Imiquimod untuk meningkatkan sistem kekebalan tubuh dalam memerangi infeksi.\n
+        3. Ektrak teh hijau yang dioleskan pada kondiloma akuminata di sekitar alat kelamin dan anus.
+    </string>
+
+    <string name="Skabies">
+        <b>Defenisi</b>\n
+        <br>Kudis adalah kondisi yang ditandai dengan munculnya rasa sangat gatal di kulit, terutama
+            pada malam hari, disertai dengan timbulnya ruam bintikbintik menyerupai jerawat atau lepuhan kecil
+            bersisik. Kondisi ini merupakan dampak dari adanya tungau yang hidup dan bersarang di kulit.</br>\n\n
+
+        <b>Gejala</b>\n
+        <br> Adapun gejala dari ulkus mole adalah: </br>\n
+
+        <br>1. Rasa gatal</br>\n
+        <br>2. Kulit terasa pedih </br>\n
+        <br>3. Benjolan berisi cairan berupa nanah</br>\n\n
+
+        <b>Penanganan</b>\n
+        Pemberian krim atau salep bisa dilakukan untuk mengurangi dampak dari
+        penyakit ini serta senantiasa menerapkan perilaku hidup sehat.
+    </string>
+
+    <string name="Mole">
+        <b>Defenisi</b>\n
+        Chancroid adalah infeksi bakteri yang ditularkan melalui kontak seksual. Seperti herpes genital
+        dan siﬁlis, chancroid merupakan faktor risiko dalam transmisi dan akuisisi infeksi HIV.
+        Chancroid terkadang disebut juga kankroid atau penyakit ulkus mole\n\n
+
+        <b>Gejala</b>\n
+        <br> Adapun gejala dari ulkus mole adalah: </br>\n
+
+        <br>1. Benjolan kecil dan merah</br>\n
+        <br>2. Berupa luka terbuka </br>\n
+        <br>3. Luka budah berdarah </br>\n
+        <br>4. Nyeri selama hubungan seksual </br>\n
+        <br>5. Pembengkakan di pangkal paha </br>\n\n
+
+        <b>Penaganan</b>\n
+        Pengobatan yang bisa dilakukan penderita seperti pemberian antibiotik
+        seperti ceftriaxone dan azithromycin. Apabila penyakit menjadi lebih parah
+        dokter akan menyarankan untuk dilakukannya operasi.
+    </string>
+
+    <string name="jenkel">
+        Pilih Jenis Kelamin Anda
+    </string>
+
+    <string name="skinandgenitals">
+        Skin&amp;Genitals.ID
+    </string>
+
+    <string name="ketskin">
+        Kenali Penyakit Anda Sedari Dini
+    </string>
+    <string name="perhatian">Perhatian: Hasil pengecekan diatas tidak bersifat mutlak.
+        Jika anda ragu hubungi dokter terdekat.</string>
+
+</resources>
